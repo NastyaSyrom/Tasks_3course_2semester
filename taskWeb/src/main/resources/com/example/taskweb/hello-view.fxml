@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<VBox alignment="CENTER" prefHeight="762.0" prefWidth="591.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taskweb.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label text="Напишите в поле URL" />
+      <TextField fx:id="fileURL" />
+      <Label prefHeight="18.0" prefWidth="652.0" text="Поле для редактирования" />
+      <HTMLEditor fx:id="htmleditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="213.0" prefWidth="682.0" />
+      <Label prefHeight="18.0" prefWidth="655.0" text="Код страницы" />
+      <TextArea fx:id="textarea" prefHeight="126.0" prefWidth="586.0" />
+      <HBox prefHeight="157.0" prefWidth="682.0">
+         <children>
+            <WebView fx:id="webview" prefHeight="120.0" prefWidth="777.0" />
+         </children>
+      </HBox>
+      <AnchorPane prefHeight="81.0" prefWidth="664.0">
+         <children>
+            <Button layoutX="322.0" layoutY="71.0" mnemonicParsing="false" onAction="#onSave" prefHeight="26.0" prefWidth="126.0" text="Сохранить" />
+            <Button layoutX="320.0" layoutY="39.0" mnemonicParsing="false" onAction="#onChange" prefHeight="26.0" prefWidth="125.0" text="Применить" />
+            <Button layoutX="26.0" layoutY="39.0" mnemonicParsing="false" onAction="#onOpen" text=" Открыть html файл" />
+            <Button layoutX="26.0" layoutY="71.0" mnemonicParsing="false" onAction="#onURL" prefHeight="26.0" prefWidth="125.0" text="Открыть URL" />
+            <Label layoutX="322.0" layoutY="14.0" text="Работа с изменениями" />
+            <Label layoutX="39.0" layoutY="14.0" text="Открыть:" />
+            <Button layoutX="210.0" layoutY="36.0" mnemonicParsing="false" onAction="#onOpenJS" text="CSS" />
+         </children>
+      </AnchorPane>
+
+   </children>
+</VBox>

@@ -1,0 +1,48 @@
+@options
+@argfile
+--class-path
+'C:/Users/anast/.m2/repository/org/openjfx/javafx-controls/18.0.1/javafx-controls-18.0.1.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-graphics/18.0.1/javafx-graphics-18.0.1.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-base/18.0.1/javafx-base-18.0.1.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-fxml/18.0.1/javafx-fxml-18.0.1.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-web/18.0.1/javafx-web-18.0.1.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-media/18.0.1/javafx-media-18.0.1.jar;C:/Users/anast/.m2/repository/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar;C:/Users/anast/.m2/repository/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27.jar;C:/Users/anast/.m2/repository/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27.jar;C:/Users/anast/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar'
+--module-path
+'C:/Users/anast/.m2/repository/org/openjfx/javafx-controls/18.0.1/javafx-controls-18.0.1-win.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-web/18.0.1/javafx-web-18.0.1-win.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-media/18.0.1/javafx-media-18.0.1-win.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-fxml/18.0.1/javafx-fxml-18.0.1-win.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-graphics/18.0.1/javafx-graphics-18.0.1-win.jar;C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/target/taskWeb-1.0-SNAPSHOT.jar;C:/Users/anast/.m2/repository/org/openjfx/javafx-base/18.0.1/javafx-base-18.0.1-win.jar'
+--patch-module
+com.example.taskweb='C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/src/main/java;C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/target/generated-sources/annotations'
+-encoding
+'UTF-8'
+-private
+--module-source-path
+'C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/target/site/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'taskWeb 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'taskWeb 1.0-SNAPSHOT API'
+'C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/src/main/java/com/example/taskweb/HelloApplication.java'
+'C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/src/main/java/com/example/taskweb/HelloController.java'
+'C:/Users/anast/OneDrive/Документы/3 курс 2 сем/Минакова/taskWeb/src/main/java/module-info.java'
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\allclasses-index.html = 1686732024795
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\allpackages-index.html = 1686732024800
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\copy.svg = 1686732024856
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\element-list = 1686732024572
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\help-doc.html = 1686732024843
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\index-all.html = 1686732024831
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\index.html = 1686732024835
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\jquery-ui.overrides.css = 1686732024917
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\member-search-index.js = 1686732024811
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\module-search-index.js = 1686732024803
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\overview-tree.html = 1686732024771
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\package-search-index.js = 1686732024806
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\script.js = 1686732024851
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\search.js = 1686732024861
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\stylesheet.css = 1686732024848
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\tag-search-index.js = 1686732024813
+C:\Users\anast\OneDrive\Документы\3 курс 2 сем\Минакова\taskWeb\target\site\apidocs\type-search-index.js = 1686732024809
