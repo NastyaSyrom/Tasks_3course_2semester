@@ -4,5 +4,5 @@
 
 Список работ:
 - [HTML-редактор]()
-- [Цепочка обязанностей "Автомат"]()
+- [Цепочка обязанностей "Автомат"](https://github.com/NastyaSyrom/Tasks_3course_2semester/tree/main/Task%2014)
 - [Медиатор]()
